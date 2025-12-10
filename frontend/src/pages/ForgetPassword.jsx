@@ -50,6 +50,8 @@ const ForgetPassword = () => {
     );
   };
   if (!isSuccess) {
+
+    
     return <AuthModule authContent={<FormContainer />} AUTH_TITLE="Forget Password" />;
   } else {
     return (
